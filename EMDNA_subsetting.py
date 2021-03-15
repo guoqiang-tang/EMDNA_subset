@@ -27,12 +27,12 @@ def read_EMDNA(file):
 # subsetting parameters
 
 # parent path of EMDNA
-emdna_path = '/project/rpp-kshook/Model_Output/ClimateForcingData/EMDNA/Estimate'
-OI_path = '/project/rpp-kshook/Model_Output/ClimateForcingData/EMDNA/OI'
+emdna_path = '/project/rpp-kshook/Model_Output/ClimateForcingData/EMDNA/Probabilistic' # path of probabilistic data which are saved for every year 
+OI_path = '/project/rpp-kshook/Model_Output/ClimateForcingData/EMDNA/Deterministic' # path of deterministic data
 
 # outpath for saving the subset data
 suffix = '.subset' # user defined suffix of output files
-subset_path = '/scratch-deleted-2021-mar-20/gut428/test' # path where output files are written
+subset_path = '/home/abc123/your_path/' # path where output files are written
 
 # time period, region, and members
 yearrange = [1979, 1979] # within [1979, 2018]
