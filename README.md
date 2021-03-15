@@ -3,7 +3,7 @@ The script is used to extract a subset dataset from the EMDNA dataset.
 
 For running the script on Compute Canada Graham, the steps are:  
 (1) Install Python packages if this has not been done before  
-Reference: https://github.com/tgq14/EMDNA_subset/edit/main/README.md
+Reference: https://docs.computecanada.ca/wiki/Python#Installing_packages
 
 First, creating and using a virtual environment:  
 [name@server ~]$ virtualenv --no-download ~/ENV  
